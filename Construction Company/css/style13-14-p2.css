@@ -1,0 +1,16 @@
+.my-caption  /* This is for inlay background color for text*/
+{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,0.6);
+    padding-top: 100px;
+
+}
+
+.inner-caption
+{
+    width: 60%;
+    margin: 0 auto;
+}

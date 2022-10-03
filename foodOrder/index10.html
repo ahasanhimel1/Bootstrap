@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Day-10-class</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a href="" class="navbar-brand">LIFE STYLE</a>
+            <button type="button" class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li><a href="" class="nav-link">Home</a></li>
+                    <li><a href="" class="nav-link">About</a></li>
+                    <li><a href="" class="nav-link">Gallery</a></li>
+                    <li><a href="" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+    <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500" id="slider">
+<!--        inner e joto gula item thakbe thik toto gula li indicators e thakbe.1st li e class active thakbe.
+ol er vitorer kaj read more er nicher 3 dot er jonno use kora hoise.
+ indicators e agula korte hoy.-->
+        <ol class="carousel-indicators">
+            <li data-bs-target="#slider" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#slider" data-bs-slide-to="1" class=""></li>
+            <li data-bs-target="#slider" data-bs-slide-to="2" class=""></li>
+        </ol>
+<!-- carousel-inner er vitor ccarousel-item e img and caption and READ MORE BUTTON creat kora hoise-->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/1.jpg" alt="a" class="w-100" style="height: 550px;"/>
+                <div class="carousel-caption">
+                    <h3>This Is Our Work</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto atque cumque deserunt distinctio eos esse exercitationem impedit iste laudantium magnam mollitia provident quisquam quo quos repudiandae, totam, unde voluptatibus.</p>
+                    <a href="#mod" data-bs-toggle="modal" class="btn btn-danger">Read More</a>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/2.jpg" alt="b" class="w-100" style="height: 550px;"/>
+                <div class="carousel-caption">
+                    <h3>This Our Work</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto atque cumque deserunt distinctio eos esse exercitationem impedit iste laudantium magnam mollitia provident quisquam quo quos repudiandae, totam, unde voluptatibus.</p>
+                    <a href="#mod" data-bs-toggle="modal" class="btn btn-danger">Read More</a>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/3.jpg" alt="c" class="w-100" style="height: 550px;"/>
+                <div class="carousel-caption">
+                    <h3>This Our Work</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto atque cumque deserunt distinctio eos esse exercitationem impedit iste laudantium magnam mollitia provident quisquam quo quos repudiandae, totam, unde voluptatibus.</p>
+                    <a href="#mod" data-bs-toggle="modal" class="btn btn-danger">Read More</a>
+                </div>
+            </div>
+        </div>
+
+
+
+<!--controller:ancor tag er vitor <> ai button and prev next  er kaj kora lage-->
+
+        <a href="#slider" class="carousel-control-prev" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+
+        <a href="#slider" class="carousel-control-next" data-bs-slide="prev">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+
+
+
+
+<!--card class work: it has 3 parts:1.header,2.body,3.footer-->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>This is card Header</h4>
+                        </div>
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, debitis, deleniti dolores eos ex expedita facere hic id, itaque laudantium mollitia necessitatibus nulla placeat provident quos ullam vel vitae voluptatibus?</p>
+                        </div>
+                        <div class="card-footer"><a href="#mod" data-bs-toggle="modal" class="btn btn-success w-100">Read More</a></div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>This is card Header</h4>
+                        </div>
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, debitis, deleniti dolores eos ex expedita facere hic id, itaque laudantium mollitia necessitatibus nulla placeat provident quos ullam vel vitae voluptatibus?</p>
+                        </div>
+                        <div class="card-footer"><a href="#mod" data-bs-toggle="modal" class="btn btn-success w-100">Read More</a></div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>This is card Header</h4>
+                        </div>
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, debitis, deleniti dolores eos ex expedita facere hic id, itaque laudantium mollitia necessitatibus nulla placeat provident quos ullam vel vitae voluptatibus?</p>
+                        </div>
+                        <div class="card-footer"><a href="#mod" data-bs-toggle="modal" class="btn btn-success w-100">Read More</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section class="py-5 bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="img/h1.jpg" alt="" class="card-img-top" style="height: 250px;">
+                        <div class="card-body">
+                           <h4>This is our content</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, cumque ducimus eius eligendi est facilis harum impedit provident quibusdam voluptatem. Consequuntur doloribus eos error esse necessitatibus odit rem sunt vitae.</p>
+                            <a href="#mod" data-bs-toggle="modal" class="btn btn-info w-100">Detail</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="img/h2.jpg" alt="" class="card-img-top" style="height: 250px;">
+                        <div class="card-body">
+                            <h4>This is our content</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, cumque ducimus eius eligendi est facilis harum impedit provident quibusdam voluptatem. Consequuntur doloribus eos error esse necessitatibus odit rem sunt vitae.</p>
+                            <a href="#mod" data-bs-toggle="modal" class="btn btn-info w-100">Detail</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="img/h3.jpg" alt="" class="card-img-top" style="height: 250px;">
+                        <div class="card-body">
+                            <h4>This is our content</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, cumque ducimus eius eligendi est facilis harum impedit provident quibusdam voluptatem. Consequuntur doloribus eos error esse necessitatibus odit rem sunt vitae.</p>
+                            <a href="#mod" data-bs-toggle="modal" class="btn btn-info w-100">Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="img/b1.jpg" alt="" class=" w-100 h-100"/>
+                            </div>
+                            <div class="col-9">
+                                <div class="card-body">
+                                    <p>Ad ra tenetur vitae! hello helloe hi hellow how are you Laudantium!</p>
+                                    <a href="#mod" data-bs-toggle="modal" class="btn btn-success w-100">Detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="img/b1.jpg" alt="" class=" w-100 h-100"/>
+                            </div>
+                            <div class="col-9">
+                                <div class="card-body">
+                                    <p>Ad ra tenetur vitae! hello helloe hi hellow how are you Laudantium!</p>
+                                    <a href="#mod" data-bs-toggle="modal" class="btn btn-success w-100">Detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="img/b2.jpg" alt="" class=" w-100 h-100"/>
+                            </div>
+                            <div class="col-9">
+                                <div class="card-body">
+                                    <p>Add start  ra tenetur vitae! hello helloe hi hellow how are you Laudantium!</p>
+                                    <a href="#mod" data-bs-toggle="modal" class="btn btn-success w-100">Detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="img/b2.jpg" alt="" class=" w-100 h-100"/>
+                            </div>
+                            <div class="col-9">
+                                <div class="card-body">
+                                    <p>Ad ra tenetur vitae! hello helloe hi hellow how are you Laudantium!</p>
+                                    <a href="#mod" data-bs-toggle="modal"  class="btn btn-success w-100">Detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="py-5 bg-secondary " >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Login Form</h3>
+                        </div>
+                        <div class="card-body">
+                            <form action="" method="">
+                                <div class="row mb-3">
+                                    <label class="col-md-4">Email Address:</label>
+                                    <div class="col-md-8">
+                                        <input type="email" class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label class="col-md-4">Password:</label>
+                                    <div class="col-md-8">
+                                        <input type="password" class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label class="col-md-3"></label>
+                                    <div class="col-md-9">
+                                        <input type="button" class="btn btn-success px-5" value="Login"/>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Registration</h3>
+                        </div>
+                        <div class="card-body">
+                            <form action="" method="">
+                                <div class="row mb-3">
+                                    <label class="col-md-3">First name:</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label class="col-md-3">Last name:</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label class="col-md-3">Email:</label>
+                                    <div class="col-md-9">
+                                        <input type="email" class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label class="col-md-3">Password:</label>
+                                    <div class="col-md-9">
+                                        <input type="password" class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label class="col-md-3">Date of Birth:</label>
+                                    <div class="col-md-9">
+                                        <input type="date" class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label class="col-md-3">District Name:</label>
+                                    <div class="col-md-9">
+                                       <select  class="form-control">
+                                           <option value="">--Select District Name--</option>
+                                           <option value="">Dhaka</option>
+                                           <option value="">Tangail</option>
+                                           <option value="">Narayangonj</option>
+                                       </select>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label class="col-md-3">Gender:</label>
+                                    <div class="col-md-9">
+                                        <label><input type="radio" name="gender"/>Male</label>
+                                        <label><input type="radio" name="gender"/>Female</label>
+                                        <label><input type="radio" name="gender"/>Others</label>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label class="=col-md-3">Address:</label>
+                                    <div class="col-md-9">
+                                        <textarea class="form-control"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label class="=col-md-3"></label>
+                                    <div class="col-md-9">
+                                        <label><input type="checkbox"/>I agree with all terms & conditions</label>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label class="=col-md-3"></label>
+                                    <div class="col-md-9">
+                                        <input type="button" class="btn btn-success px-5" value="REgistration"/>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+<!--this is modal and it is use for poop-up-->
+    <div class="modal fade" id="mod">
+        <div class="modal-dialog modal-lg modal-dialog-centered"> <!--window define kore ,size definer-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    This is modal Header
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid beatae deleniti deserunt, dicta, ea illum mollitia nemo officia pariatur quam, quibusdam totam unde ut vitae. Alias cum modi suscipit.</p>
+                </div>
+                <div class="modal-footer">This is modal footer</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
